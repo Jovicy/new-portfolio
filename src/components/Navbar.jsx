@@ -1,3 +1,8 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable no-unused-vars */
+/* eslint-disable react-refresh/only-export-components */
+/* eslint-disable react/prop-types */
+/* eslint-disable react/no-unknown-property */
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -44,8 +49,8 @@ const Navbar = () => {
         >
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Adrian &nbsp;
-            <span className='sm:block hidden'> | JavaScript Mastery</span>
+            Vico &nbsp;
+            <span className='sm:block hidden'> | Codes</span>
           </p>
         </Link>
 

@@ -8,13 +8,10 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
   figma,
-  docker,
   meta,
   starbucks,
   tesla,
@@ -42,19 +39,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Responsive Design",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Frontend Development",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Cross-Browser Compatibility",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Performance Optimization",
     icon: creator,
   },
 ];
@@ -81,20 +78,12 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
     name: "Node JS",
     icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
   },
   {
     name: "Three JS",
@@ -107,10 +96,6 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 

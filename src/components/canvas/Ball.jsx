@@ -1,3 +1,8 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable no-unused-vars */
+/* eslint-disable react-refresh/only-export-components */
+/* eslint-disable react/prop-types */
+/* eslint-disable react/no-unknown-property */
 import React, { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import {
