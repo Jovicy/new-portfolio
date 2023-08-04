@@ -1,3 +1,8 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable no-unused-vars */
+/* eslint-disable react-refresh/only-export-components */
+/* eslint-disable react/prop-types */
+/* eslint-disable react/no-unknown-property */
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
@@ -33,16 +38,16 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        'service_b71wqml',
+        'template_yijbom9',
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Victor John",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "johnvictordml@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        '03xtr30IL1YZZk9gW'
       )
       .then(
         () => {

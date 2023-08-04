@@ -65,7 +65,7 @@ const About = () => {
         cross-functional teams and my commitment to delivering high-quality work
         on time. From turning ideas into code to leaving a lasting impact on
         users, I am dedicated to pushing the boundaries of frontend development
-        to create digital experiences that truly captivate and inspire.
+        to create digital experiences that truly captivate and inspire. &nbsp;<a href="https://gainful-verdict-1e4.notion.site/Victor-07dd8b3b68454785b6ee40d915b1154e" className="text-[#7ac142] underline">read more</a>
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

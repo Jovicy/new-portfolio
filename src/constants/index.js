@@ -12,14 +12,15 @@ import {
   nodejs,
   git,
   figma,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  schoolite,
+  relume,
+  vuePort,
+  evolve,
   threejs,
+  bootstrap,
+  vue,
+  vuetify,
+  sass,
 } from "../assets";
 
 export const navLinks = [
@@ -97,102 +98,59 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
+  {
+    name: "sass",
+    icon: sass,
+  },
+  {
+    name: "bootstrap",
+    icon: bootstrap,
+  },
+  {
+    name: "vue",
+    icon: vue,
+  },
+  {
+    name: "vuetify",
+    icon: vuetify,
+  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Frontend Developer",
+    company_name: "Schoolite",
+    icon: schoolite,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "November 2021 - Till Date",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed innovative and user-friendly web applications to enhance the user experience and functionality of the Schoolite platform.",
+      "Contributed to the design and implementation of exciting new features, ensuring they were visually appealing and responsive across different devices.",
+      "Gained valuable experience in front-end technologies such as HTML, CSS, and JavaScript, as well as modern frameworks like React and Vue.js.",
+      "I actively participated in code reviews, incorporating feedback from senior developers to improve code quality and performance.",
+      "During development, I conducted rigorous testing and debugging to ensure a smooth and error-free user experience",
+      "Adapted to an agile development environment, embracing quick iterations and continuous improvement.",
+      "Collaborated closely with the UX/UI team to translate design concepts into functional, pixel-perfect interfaces.",
+      "Demonstrated a strong commitment to learning and staying up-to-date with the latest frontend trends and best practices.",
+      "Showcased a passion for delivering high-quality work, meeting project deadlines, and exceeding expectations.",
+      "Communicated effectively with team members, sharing ideas and insights to foster a positive and creative work environment.",
+      "CContributed to the company's success by delivering well-executed frontend solutions that positively impacted user engagement and satisfaction.",
     ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Evolve Gym App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Elevate your fitness journey with captivating animations and interactive class schedules. Built with React, TypeScript, and Tailwind CSS, this visually stunning platform redefines the gym experience, attracting a surge in memberships.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
@@ -200,20 +158,20 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: evolve,
+    source_code_link: "https://github.com/Jovicy/Evolve-Typescript-app",
   },
   {
-    name: "Job IT",
+    name: "Relume",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Juicy flavors and freshness await in this delightful website crafted with Sass, HTML, and JS. Explore a vibrant array of fruits and discover mouthwatering recipes. An enticing blend of design and functionality brings a juicy experience to visitors.",
     tags: [
       {
-        name: "react",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "JS",
         color: "green-text-gradient",
       },
       {
@@ -221,20 +179,20 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: relume,
+    source_code_link: "https://github.com/Jovicy/Relume",
   },
   {
-    name: "Trip Guide",
+    name: "Vue Portfolio",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      " Explore my dynamic showcase of Vue.js projects, highlighting expertise in HTML, CSS, and JavaScript. Engaging design, live demos, and detailed descriptions demonstrate a passion for innovative web development. Discover my skills and achievements in this captivating Vue.js portfolio",
     tags: [
       {
-        name: "nextjs",
+        name: "vuejs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "vuetify",
         color: "green-text-gradient",
       },
       {
@@ -242,9 +200,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: vuePort,
+    source_code_link: "https://github.com/Jovicy/vue-portfolio",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
