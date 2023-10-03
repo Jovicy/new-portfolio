@@ -13,6 +13,7 @@ import {
   git,
   figma,
   schoolite,
+  forbes,
   relume,
   vuePort,
   evolve,
@@ -21,6 +22,7 @@ import {
   vue,
   vuetify,
   sass,
+  getlinked,
 } from "../assets";
 
 export const navLinks = [
@@ -134,7 +136,26 @@ const experiences = [
       "Demonstrated a strong commitment to learning and staying up-to-date with the latest frontend trends and best practices.",
       "Showcased a passion for delivering high-quality work, meeting project deadlines, and exceeding expectations.",
       "Communicated effectively with team members, sharing ideas and insights to foster a positive and creative work environment.",
-      "CContributed to the company's success by delivering well-executed frontend solutions that positively impacted user engagement and satisfaction.",
+      "Contributed to the company's success by delivering well-executed frontend solutions that positively impacted user engagement and satisfaction.",
+    ],
+  },
+  {
+    title: "Web Development and Cloud Development Tutor",
+    company_name: "Forbes Royal Academy",
+    icon: forbes,
+    iconBg: "#383E56",
+    date: "April 2023 - Till Date",
+    points: [
+      "Empowering Future Developers: I have played a pivotal role in nurturing the next generation of web and cloud developers, imparting them with the skills and knowledge necessary to excel in a highly competitive tech landscape.",
+      "Interactive Learning: My approach to teaching goes beyond the conventional, focusing on hands-on experiences and real-world applications. Through meticulously designed coursework, I have fostered an environment where students not only understand the principles but also apply them effectively.",
+      "Cutting-edge Technologies: Staying true to Forbes Royal Academy's commitment to excellence, I have introduced students to the latest web and cloud development technologies. This includes cloud computing platforms like AWS, Azure, and Google Cloud, as well as modern web development frameworks such as React, Vue.js, and Angular.",
+      "Code Reviews and Quality Assurance: Emulating industry best practices, I have encouraged a culture of code reviews and quality assurance among my students. This ensures that the code produced is not only functional but also follows industry standards, enhancing the students' readiness for real-world projects.",
+      "Hands-on Experience: To simulate real-world scenarios, I have overseen practical projects that require students to create and deploy web applications on cloud platforms. This practical exposure equips them with the skills needed for successful careers in web and cloud development.",
+      "Student Success: The success stories of my students, who have secured positions at top tech companies and launched their startups, stand as a testament to the effectiveness of my teaching methods and mentorship.",
+      "Collaborative Environment: Fostering a collaborative learning environment, I encourage students to share ideas, engage in peer-to-peer learning, and explore innovative solutions. This approach has led to the development of creative and forward-thinking projects.",
+      "Adaptive Teaching: Recognizing the dynamic nature of technology, I have adapted my teaching methods to keep pace with the ever-evolving landscape of web and cloud development. This has included introducing students to serverless computing, containerization, and DevOps practices.",
+      "Continuous Learning: Just as I inspire my students to embrace lifelong learning, I lead by example. I stay up-to-date with the latest trends, technologies, and best practices in web and cloud development, ensuring that my students receive the most current and relevant knowledge.",
+      "Commitment to Excellence: I take pride in consistently delivering high-quality educational experiences, meeting and often exceeding the expectations of both students and the institution. My dedication to excellence aligns with Forbes Royal Academy's commitment to setting the gold standard in education.",
     ],
   },
 ];
@@ -185,7 +206,7 @@ const projects = [
   {
     name: "Vue Portfolio",
     description:
-      " Explore my dynamic showcase of Vue.js projects, highlighting expertise in HTML, CSS, and JavaScript. Engaging design, live demos, and detailed descriptions demonstrate a passion for innovative web development. Discover my skills and achievements in this captivating Vue.js portfolio",
+    " Explore my dynamic showcase of Vue.js projects, highlighting expertise in HTML, CSS, and JavaScript. Engaging design, live demos, and detailed descriptions demonstrate a passion for innovative web development. Discover my skills and achievements in this captivating Vue.js portfolio",
     tags: [
       {
         name: "vuejs",
@@ -202,6 +223,27 @@ const projects = [
     ],
     image: vuePort,
     source_code_link: "https://github.com/Jovicy/vue-portfolio",
+  },
+  {
+    name: "Get Linked",
+    description:
+      "Participating in the getlinked Tech Hackathon 1.0 was a transformative experience that demonstrated our visionary capabilities. We united to shape a future where innovation prevails, addressing real-world challenges and showcasing our dedication to pushing technological boundaries for a positive global impact.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: getlinked,
+    source_code_link: "https://github.com/Jovicy/Get-linked",
   },
 ];
 

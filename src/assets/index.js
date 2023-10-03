@@ -24,10 +24,12 @@ import vue from "./tech/vue.png";
 import vuetify from "./tech/vuetify.png";
 
 import schoolite from "./company/schoolite.jpg";
+import forbes from "./company/forbes.jpg";
 
 import relume from "./relume.png";
 import vuePort from "./vue-port.png";
 import evolve from "./evolve.png";
+import getlinked from "./getlinked.png";
 
 export {
   logo,
@@ -50,7 +52,9 @@ export {
   typescript,
   threejs,
   schoolite,
+  forbes,
   evolve,
+  getlinked,
   relume,
   vuePort,
   bootstrap,
